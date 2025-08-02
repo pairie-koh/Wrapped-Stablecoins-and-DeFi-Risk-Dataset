@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Step 1: Load the file
-df = pd.read_csv(r"C:\Users\hello\Downloads\BTC_USD Bitfinex Historical Data.csv")
+df = pd.read_csv(r"C:\Users\hello\Downloads\BTC_USD Binance Historical Data.csv")
 
 # Step 2: Strip quotes, commas, and whitespace
 df.columns = df.columns.str.strip()
@@ -32,5 +32,5 @@ if '"Date"' in df.columns:
     df.sort_values('"Date"', inplace=True)
 
 # Step 6: Export cleaned CSV
-df.to_csv("cleaned_bitfinex_rawnames.csv", index=False)
-print("✅ Cleaned file saved as 'cleaned_bitfinex_rawnames.csv'")
+df.to_csv("BTC-USD-binance.csv", index=False)
+print("Cleaned file has been saved'")
