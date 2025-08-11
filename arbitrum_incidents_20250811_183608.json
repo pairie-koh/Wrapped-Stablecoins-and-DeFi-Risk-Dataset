@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "fetched_at": "2025-08-11T18:36:08.532552",
+    "date_range": {
+      "start": "2020-01-01T00:00:00",
+      "end": "2025-08-02T23:59:59"
+    },
+    "source": "https://status.arbitrum.io/api/v2/incidents.json"
+  },
+  "statistics": {
+    "total_incidents": 0,
+    "by_impact": {
+      "none": 0,
+      "minor": 0,
+      "major": 0,
+      "critical": 0
+    },
+    "by_status": {},
+    "total_downtime_minutes": 0,
+    "average_resolution_time_minutes": 0,
+    "incidents_by_month": {},
+    "bridge_related": 0
+  },
+  "all_incidents": [],
+  "bridge_related_incidents": []
+}
